@@ -1,0 +1,2 @@
+2021-04-10 08:46:45,606 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters :3
+2021-04-10 08:46:45,609 ERROR c.e.f.f.FigureFactory [main] radius cannot be less then 0 [four parameter]. radius : -5.0

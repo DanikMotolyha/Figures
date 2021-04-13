@@ -1,15 +1,15 @@
 package com.epam.figure.service;
 
-import com.epam.figure.entity.Figure;
+import com.epam.figure.entity.AbstractFigure;
 import com.epam.figure.exception.FigureException;
 
 public interface CalculationService {
 
-    double area(Figure figure);
+    double volume(AbstractFigure figure);
 
-    double squareSurface(Figure figure);
+    double squareSurface(AbstractFigure figure);
 
-    boolean planeIntersection(Figure figure, double height, String coordinatePlanes) throws FigureException;
+    boolean planeIntersection(AbstractFigure figure, double height, String coordinatePlanes) throws FigureException, CloneNotSupportedException;
 
-    double spaceRatioFromCoordinatePlane(Figure figure, double height, String coordinatePlanes) throws FigureException;
+    double spaceRatio(AbstractFigure figure, double height, String coordinatePlanes) throws FigureException, CloneNotSupportedException;
 }

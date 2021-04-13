@@ -4,6 +4,7 @@ import com.epam.figure.exception.FigureException;
 
 public class FigureFactoryValidator {
 
+
     public static void validateSphereParameters(double... params) throws FigureException {
         if (params.length != 4) {
             throw new FigureException("wrong number of parameters : " + params.length);

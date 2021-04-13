@@ -1,9 +1,9 @@
 package com.epam.figure.entity;
 
 public class Point implements Cloneable {
-    private final double x;
-    private final double y;
-    private final double z;
+    private double x;
+    private double y;
+    private double z;
 
     public Point(double x, double y, double z) {
         this.x = x;
@@ -15,12 +15,24 @@ public class Point implements Cloneable {
         return x;
     }
 
+    public void setX(double x) {
+        this.x = x;
+    }
+
     public double getY() {
         return y;
     }
 
+    public void setY(double y) {
+        this.y = y;
+    }
+
     public double getZ() {
         return z;
+    }
+
+    public void setZ(double z) {
+        this.z = z;
     }
 
     @Override
@@ -31,6 +43,21 @@ public class Point implements Cloneable {
         return Double.compare(point.x, x) == 0 &&
                 Double.compare(point.y, y) == 0 &&
                 Double.compare(point.z, z) == 0;
+    }
+    /*fixme
+    @Override
+    protected Point clone() {
+        Point point = null;
+        try {
+            point = (Point) super.clone();
+        } catch (CloneNotSupportedException ignored) {
+            throw new RuntimeException();
+        }
+        return point;
+    }*/
+    @Override
+    public Point clone() throws CloneNotSupportedException {
+        return (Point) super.clone();
     }
 
     @Override

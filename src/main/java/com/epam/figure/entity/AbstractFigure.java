@@ -1,10 +1,10 @@
 package com.epam.figure.entity;
 
-public abstract class Figure {
+public abstract class AbstractFigure {
     private static long id;
     private final long figureId;
 
-    public Figure() {
+    public AbstractFigure() {
         figureId = id++;
     }
 
@@ -12,11 +12,16 @@ public abstract class Figure {
         return figureId;
     }
 
+    public long getId() {
+        return id;
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Figure figure = (Figure) o;
+        AbstractFigure figure = (AbstractFigure) o;
         return figureId == figure.figureId;
     }
 

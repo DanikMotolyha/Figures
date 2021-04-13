@@ -1,2 +1,625 @@
-2021-04-10 08:46:45,606 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters :3
-2021-04-10 08:46:45,609 ERROR c.e.f.f.FigureFactory [main] radius cannot be less then 0 [four parameter]. radius : -5.0
+2021-04-13 05:38:34,986 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 05:38:35,015 INFO c.e.f.v.FigureFactoryValidator [main] parse lines : [1.0 23 15 48 34 12, 15 21 15 21 -1 51, 21 15 64 158 4 8, 1 5 -5 4 -48, 1 5 32 4, 0 0 0 5]
+2021-04-13 05:38:35,018 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 05:38:35,022 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 05:38:35,023 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 05:38:35,023 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 5
+2021-04-13 08:03:27,464 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:03:27,474 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:03:27,474 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:03:27,475 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:03:27,476 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:03:27,476 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:03:27,477 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 08:03:27,481 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:03:27,487 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:03:27,488 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:03:27,488 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 5
+2021-04-13 08:13:37,745 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:13:37,755 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:13:37,755 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:13:37,756 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:13:37,756 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:13:37,756 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:13:37,756 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 08:13:37,759 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:13:37,763 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:13:37,764 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:13:37,764 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 5
+2021-04-13 08:14:20,982 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:14:34,388 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:14:37,225 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:14:38,203 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:14:39,152 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:14:40,216 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:14:41,726 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 08:14:46,896 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:14:46,908 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:14:46,909 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 6
+2021-04-13 08:14:46,911 ERROR c.e.f.f.FigureFactory [main] wrong number of parameters : 5
+2021-04-13 08:15:57,044 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:15:57,053 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:15:57,054 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:15:57,054 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:15:57,054 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:15:57,055 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:15:57,055 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 08:16:41,136 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:16:41,184 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:16:41,184 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:16:41,184 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:16:41,184 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:16:41,185 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:16:41,185 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 08:16:51,219 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 08:16:51,226 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 08:16:51,227 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 08:16:51,227 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 08:16:51,227 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 08:16:51,227 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 08:16:51,228 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:02:30,898 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:02:30,919 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:02:30,920 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:02:30,920 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:02:30,920 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:02:30,920 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:02:30,921 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:04:21,032 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:04:21,045 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:04:21,046 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:04:21,047 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:04:21,047 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:04:21,047 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:04:21,048 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:38:35,954 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:38:35,975 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:38:35,975 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:38:35,975 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:38:35,975 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:38:35,976 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:38:35,976 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:38:35,976 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 10:38:35,976 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 10:38:35,987 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 10:38:35,988 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:38:35,989 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:38:35,989 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:39:36,583 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:39:36,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:39:36,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:39:36,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:39:36,596 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:39:36,596 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:39:36,597 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:39:36,598 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 10:39:36,598 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 10:39:36,611 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 10:39:36,612 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:39:36,613 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:39:36,613 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:41:59,226 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:41:59,236 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:41:59,236 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:41:59,237 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:41:59,237 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:41:59,237 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:41:59,238 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:41:59,238 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 10:41:59,239 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 10:41:59,252 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 10:41:59,253 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:41:59,253 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:41:59,254 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:42:54,582 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 10:42:54,593 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 10:42:54,594 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 10:42:54,594 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 10:42:54,594 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 10:42:54,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 10:42:54,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 10:42:54,595 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 10:42:54,600 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 10:42:54,618 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 10:42:54,619 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:42:54,620 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 10:42:54,620 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 11:42:22,586 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=1.0, z=1.0} radius :4.0
+2021-04-13 11:42:22,613 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=12.0, z=32.0} radius :5.0
+2021-04-13 11:42:22,615 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=-1.0, y=0.0, z=12.0} radius :3.0
+2021-04-13 11:42:22,616 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=3.0, z=4.0} radius :1.0
+2021-04-13 11:42:22,618 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=-65.0, z=44.0} radius :3.0
+2021-04-13 11:42:22,699 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:42:22,704 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=6}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:42:22,713 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=7}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:42:22,716 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=8}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 11:42:22,722 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=9}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 11:42:22,736 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=10}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 3.0 coordinate plane : 1.0
+2021-04-13 11:42:22,741 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=11}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 11:42:22,743 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=12}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 11:42:22,745 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=13}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 4.0 coordinate plane : 0.0
+2021-04-13 11:42:22,751 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=14}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 11:42:22,753 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 1.0 coordinate plane : 1.0
+2021-04-13 11:42:22,753 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:42:22,755 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 11:42:22,755 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:42:22,768 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 11:42:22,769 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:42:22,784 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 3.0 coordinate plane : 0.0
+2021-04-13 11:42:22,784 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}]
+2021-04-13 11:42:22,786 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 11:42:22,787 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 11:42:22,803 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=20}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:42:22,805 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=21}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:42:22,830 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=22}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:42:22,831 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=23}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 11:42:22,833 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=24}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 11:58:11,222 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=1.0, z=1.0} radius :4.0
+2021-04-13 11:58:11,257 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=12.0, z=32.0} radius :5.0
+2021-04-13 11:58:11,259 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=-1.0, y=0.0, z=12.0} radius :3.0
+2021-04-13 11:58:11,266 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=3.0, z=4.0} radius :1.0
+2021-04-13 11:58:11,267 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=-65.0, z=44.0} radius :3.0
+2021-04-13 11:58:11,326 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:58:11,331 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=6}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:58:11,336 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=7}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:58:11,343 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=8}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 11:58:11,350 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=9}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 11:58:11,355 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=10}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 3.0 coordinate plane : 1.0
+2021-04-13 11:58:11,357 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=11}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 11:58:11,372 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=12}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 11:58:11,373 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=13}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 4.0 coordinate plane : 0.0
+2021-04-13 11:58:11,382 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=14}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 11:58:11,384 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 1.0 coordinate plane : 1.0
+2021-04-13 11:58:11,384 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:58:11,388 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 11:58:11,390 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:58:11,392 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 11:58:11,393 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:58:11,401 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 3.0 coordinate plane : 0.0
+2021-04-13 11:58:11,402 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}]
+2021-04-13 11:58:11,403 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 11:58:11,404 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 11:58:11,419 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=20}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 11:58:11,420 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=21}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 11:58:11,443 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=22}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 11:58:11,445 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=23}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 11:58:11,453 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=24}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 12:05:58,708 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 12:06:31,385 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 12:13:08,373 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 12:15:38,220 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 12:42:11,949 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 12:42:11,956 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 12:42:11,963 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 12:42:29,123 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=1.0, z=1.0} radius :4.0
+2021-04-13 12:42:29,142 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=12.0, z=32.0} radius :5.0
+2021-04-13 12:42:29,144 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=-1.0, y=0.0, z=12.0} radius :3.0
+2021-04-13 12:42:29,146 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=3.0, z=4.0} radius :1.0
+2021-04-13 12:42:29,162 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=-65.0, z=44.0} radius :3.0
+2021-04-13 12:42:29,227 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 12:42:29,228 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 12:42:29,235 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 12:42:29,267 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 12:42:29,283 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 12:42:29,285 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=6}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 12:42:29,287 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=7}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 12:42:29,291 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=8}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 12:42:29,293 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=9}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 12:42:29,348 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=10}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 3.0 coordinate plane : 1.0
+2021-04-13 12:42:29,353 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=11}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 12:42:29,360 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=12}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 12:42:29,362 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=13}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 4.0 coordinate plane : 0.0
+2021-04-13 12:42:29,365 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=14}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 12:42:29,372 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 1.0 coordinate plane : 1.0
+2021-04-13 12:42:29,373 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=15}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 12:42:29,376 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 12:42:29,377 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=16}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 12:42:29,383 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 12:42:29,386 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=17}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 12:42:29,387 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 3.0 coordinate plane : 0.0
+2021-04-13 12:42:29,388 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=18}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}]
+2021-04-13 12:42:29,391 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 12:42:29,395 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=19}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 12:42:29,405 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=20}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 12:42:29,409 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=21}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 12:42:29,411 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=22}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 12:42:29,419 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=23}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 12:42:29,424 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=24}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 13:48:43,225 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 13:48:43,287 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 13:48:43,288 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 13:48:43,289 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 13:48:43,289 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 13:48:43,289 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 13:48:43,290 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 13:48:43,290 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 13:48:43,290 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 13:48:43,356 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 13:48:43,398 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:48:43,399 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:48:43,400 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:49:26,546 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 13:49:26,561 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 13:49:26,562 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 13:49:26,563 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 13:49:26,563 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 13:49:26,563 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 13:49:26,564 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 13:49:26,564 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 13:49:26,564 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 13:49:26,590 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 13:49:26,595 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:49:26,595 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:49:26,596 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:50:19,620 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 13:50:19,660 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 13:50:19,661 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 13:50:19,661 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 13:50:19,661 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 13:50:19,661 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 13:50:19,661 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 13:50:19,662 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 13:50:19,662 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 13:50:19,712 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 13:50:19,714 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:50:19,715 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 13:50:19,716 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:01:33,675 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:01:33,715 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:01:33,715 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:01:33,715 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:01:33,716 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:01:33,716 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:01:33,716 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:01:33,717 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:01:33,717 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:01:33,728 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:01:33,817 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:01:33,818 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:01:33,820 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:01:33,878 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=1.0, z=1.0} radius :4.0
+2021-04-13 14:01:33,883 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=12.0, z=32.0} radius :5.0
+2021-04-13 14:01:33,887 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=-1.0, y=0.0, z=12.0} radius :3.0
+2021-04-13 14:01:33,889 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=3.0, z=4.0} radius :1.0
+2021-04-13 14:01:33,891 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=-65.0, z=44.0} radius :3.0
+2021-04-13 14:01:33,959 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:01:33,966 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:01:33,979 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:01:33,996 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:01:34,026 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=16}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 14:01:34,028 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=17}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 14:01:34,033 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=18}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 14:01:34,035 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=19}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 14:01:34,043 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=20}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 14:01:34,045 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=21}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 3.0 coordinate plane : 1.0
+2021-04-13 14:01:34,114 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=22}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 14:01:34,116 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=23}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 14:01:34,117 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=24}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 4.0 coordinate plane : 0.0
+2021-04-13 14:01:34,119 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=25}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 14:01:34,125 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=26}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}] with height : 1.0 coordinate plane : 1.0
+2021-04-13 14:01:34,125 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=26}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 14:01:34,126 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=27}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}] with height : 0.0 coordinate plane : 4.0
+2021-04-13 14:01:34,127 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=27}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 14:01:34,869 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=28}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}] with height : 4.0 coordinate plane : -4.0
+2021-04-13 14:01:34,872 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=28}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 14:01:34,874 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=29}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}] with height : 3.0 coordinate plane : 0.0
+2021-04-13 14:01:34,875 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=29}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=4.0}]
+2021-04-13 14:01:34,877 INFO c.e.f.s.i.SphereCalculationService [main] function planeIntersection take obj : [Figure{figureId=30}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}] with height : 4.0 coordinate plane : 5.0
+2021-04-13 14:01:34,877 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=30}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 14:01:34,880 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=31}Sphere{Point{ x=1.0, y=1.0, z=1.0}, radius=4.0}]
+2021-04-13 14:01:34,881 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=32}Sphere{Point{ x=2.0, y=3.0, z=4.0}, radius=5.0}]
+2021-04-13 14:01:34,882 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=33}Sphere{Point{ x=-4.0, y=41.0, z=10.0}, radius=12.0}]
+2021-04-13 14:01:34,884 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=34}Sphere{Point{ x=0.0, y=1.0, z=8.0}, radius=3.0}]
+2021-04-13 14:01:34,885 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=35}Sphere{Point{ x=11.0, y=5.0, z=-5.0}, radius=44.0}]
+2021-04-13 14:03:51,283 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:03:51,313 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:03:51,314 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:03:51,314 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:03:51,315 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:03:51,315 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:03:51,316 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:03:51,316 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:03:51,361 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:03:51,428 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:03:51,430 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:03:51,431 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:03:51,432 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:07:44,646 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:07:44,684 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:07:44,685 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:07:44,688 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:07:44,689 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:07:44,692 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:07:44,693 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:07:44,694 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:07:44,695 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:07:44,730 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:07:44,732 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:07:44,733 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:07:44,733 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:07:44,739 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:07:44,739 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:07:44,740 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:07:44,742 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:07:44,743 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:07:44,776 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:07:44,778 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:07:44,781 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:07:44,785 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:07:44,802 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:15:19,350 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:15:19,402 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:15:19,403 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:15:19,403 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:15:19,404 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:15:19,422 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:15:19,422 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:15:19,423 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:15:19,423 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:15:19,447 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:15:19,481 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:15:19,482 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:15:19,498 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:15:19,511 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:15:19,512 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:15:19,513 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:15:19,514 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:15:19,516 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:15:19,582 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:15:19,585 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:15:19,605 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:15:19,614 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:15:19,618 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:19:10,839 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:19:10,850 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:19:10,851 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:19:10,851 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:19:10,852 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:19:10,852 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:19:10,853 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:19:10,853 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:19:10,853 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:19:10,872 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:19:10,876 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:10,876 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:10,877 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:10,917 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:19:10,919 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:10,919 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:10,920 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:10,922 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:19:10,947 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:19:10,948 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:19:10,950 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:19:10,953 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:19:10,956 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:19:10,958 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:19:10,967 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:19:10,968 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:19:10,970 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:19:55,758 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:19:55,771 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:19:55,771 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:19:55,772 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:19:55,772 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:19:55,772 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:19:55,772 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:19:55,773 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:19:55,773 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:19:55,789 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:19:55,792 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:55,793 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:55,793 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:19:55,798 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:19:55,799 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:55,799 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:55,799 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:19:55,799 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:19:55,822 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:19:55,823 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:19:55,826 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:19:55,830 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:19:55,835 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:20:02,416 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:20:38,286 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:20:39,376 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:20:59,260 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:21:11,232 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:21:11,253 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:21:11,254 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:21:11,255 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:21:11,255 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:21:11,255 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:21:11,256 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:21:11,257 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:21:11,257 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:21:11,282 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:21:11,293 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:11,294 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:11,294 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:11,305 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:21:11,305 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:11,306 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:11,307 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:11,307 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:21:11,345 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:21:11,350 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:21:11,357 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:21:11,363 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:21:11,369 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:21:15,376 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:21:15,394 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:21:15,395 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:21:15,397 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:21:22,455 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:21:22,474 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:21:22,474 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:21:22,475 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:21:22,475 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:21:22,476 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:21:22,477 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:21:22,477 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:21:22,477 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:21:22,497 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:21:22,505 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:22,506 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:22,506 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:21:22,512 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:21:22,513 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:22,514 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:22,514 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:21:22,514 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:21:22,542 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:21:22,544 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:21:22,547 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:21:22,551 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:21:22,578 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:21:22,579 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:21:22,584 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:21:22,585 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:24:44,984 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:38:45,789 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:38:45,800 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:38:45,803 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:38:45,804 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:38:45,804 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:38:45,804 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:38:45,805 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:38:45,805 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:38:45,807 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:38:45,819 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:38:45,820 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:38:45,821 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:38:45,821 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:38:45,824 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:38:45,825 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:38:45,825 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:38:45,825 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:38:45,826 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:38:45,843 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:38:45,844 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:38:45,846 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:38:45,851 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:38:45,856 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:38:45,859 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:38:45,862 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:38:45,863 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:38:45,868 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:38:45,869 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:38:45,870 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:39:43,698 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:39:43,732 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:39:43,732 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:39:43,733 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:39:43,733 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:39:43,734 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:39:43,734 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:39:43,734 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:39:43,735 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:39:43,782 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:39:43,783 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:39:43,784 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:39:43,785 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:39:43,843 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:39:43,844 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:39:43,846 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:39:43,847 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:39:43,849 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:39:43,884 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:39:43,885 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:39:43,913 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:39:43,946 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:39:43,966 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:39:44,001 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:39:44,230 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:39:44,231 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:40:16,645 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:40:17,261 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:40:45,232 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:40:51,558 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:40:51,568 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:40:51,568 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:40:51,568 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:40:51,569 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:40:51,569 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:40:51,569 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:40:51,570 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:40:51,570 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:40:51,589 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:40:51,592 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:40:51,592 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:40:51,593 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:40:51,599 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:40:51,599 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:40:51,599 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:40:51,599 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:40:51,600 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:40:51,620 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:40:51,621 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:40:51,623 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:40:51,629 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:40:51,634 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:40:51,638 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:40:51,653 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:40:51,653 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:41:43,746 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:41:44,654 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:41:53,664 WARN c.e.f.o.i.SphereObserver [main] Object was null
+2021-04-13 14:42:07,985 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:42:07,994 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:42:07,994 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:42:07,994 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:42:07,995 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:42:07,995 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:42:07,995 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:42:07,996 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:42:07,996 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:42:08,005 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:42:08,006 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:08,007 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:08,007 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:08,011 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:42:08,012 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:08,012 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:08,012 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:08,013 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:42:08,030 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:08,031 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:42:08,033 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:42:08,035 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:42:08,039 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:42:08,041 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:42:08,044 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:08,045 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:08,047 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:08,048 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,047 INFO c.e.f.r.FigureReader [main] read file : src/main/resources/data/import.txt
+2021-04-13 14:42:46,057 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1.0 23 15 48 34 12
+2021-04-13 14:42:46,057 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 15 21 15 21 -1 51
+2021-04-13 14:42:46,058 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 21 15 64 158 4 8
+2021-04-13 14:42:46,059 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 -5 4 -48
+2021-04-13 14:42:46,059 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 5 32 4
+2021-04-13 14:42:46,059 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 0 0 0 5
+2021-04-13 14:42:46,059 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 2 0 0 5
+2021-04-13 14:42:46,060 INFO c.e.f.v.FigureFactoryValidator [main] parse line : 1 0 0 5
+2021-04-13 14:42:46,080 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=5.0, z=32.0} radius :4.0
+2021-04-13 14:42:46,081 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=0.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:46,082 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=2.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:46,083 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=1.0, y=0.0, z=0.0} radius :5.0
+2021-04-13 14:42:46,092 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=0}Sphere{Point{ x=1.0, y=5.0, z=32.0}, radius=4.0}]
+2021-04-13 14:42:46,092 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=1}Sphere{Point{ x=0.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:46,093 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=2}Sphere{Point{ x=2.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:46,093 INFO c.e.f.r.SphereRepository [main] Add obj :[Figure{figureId=3}Sphere{Point{ x=1.0, y=0.0, z=0.0}, radius=5.0}]
+2021-04-13 14:42:46,094 INFO c.e.f.r.SphereRepository [main] get all obj
+2021-04-13 14:42:46,111 INFO c.e.f.r.SphereRepository [main] update with id:0 obj :[Figure{figureId=4}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,112 INFO c.e.f.r.SphereRepository [main] get obj with id:0
+2021-04-13 14:42:46,115 INFO c.e.f.r.SphereRepository [main] query with specificationCenterSpecification
+2021-04-13 14:42:46,121 INFO c.e.f.r.SphereRepository [main] sort with comparatorCoordinateXComparator
+2021-04-13 14:42:46,127 INFO c.e.f.r.SphereRepository [main] sort with comparatorRadiusComparator
+2021-04-13 14:42:46,131 INFO c.e.f.f.FigureFactory [main] Creating object with :Point{ x=10.0, y=10.0, z=10.0} radius :10.0
+2021-04-13 14:42:46,135 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,136 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,141 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,141 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=10.0}]
+2021-04-13 14:42:46,143 INFO c.e.f.s.i.SphereCalculationService [main] function area take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=1.0}]
+2021-04-13 14:42:46,144 INFO c.e.f.s.i.SphereCalculationService [main] function squareSurface take obj :[Figure{figureId=5}Sphere{Point{ x=10.0, y=10.0, z=10.0}, radius=1.0}]

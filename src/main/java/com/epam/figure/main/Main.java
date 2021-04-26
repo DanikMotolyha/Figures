@@ -35,6 +35,12 @@ public class Main {
             }
             Arrays.stream(elem).forEach(elem2 -> System.out.print(elem2 + " "));
         });
+        Sphere sphere1 = spheres.get(0);
+        Sphere clone = sphere1.clone();
+        System.out.println("--------------------");
+        System.out.println(clone);
+        System.out.println(sphere1);
+        System.out.println(sphere1.equals(clone));
         System.out.println("GOOD FIGURES");
         spheres.forEach(System.out::println);
 
@@ -75,6 +81,5 @@ public class Main {
         sphere.setRadius(1);
         System.out.println("------------after change");
         System.out.println(warehouse.getAllFigureInfo());
-
     }
 }

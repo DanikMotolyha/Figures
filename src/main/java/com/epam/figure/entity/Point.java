@@ -44,20 +44,14 @@ public class Point implements Cloneable {
                 Double.compare(point.y, y) == 0 &&
                 Double.compare(point.z, z) == 0;
     }
-    /*fixme
     @Override
-    protected Point clone() {
+    public Point clone() {
         Point point = null;
         try {
             point = (Point) super.clone();
         } catch (CloneNotSupportedException ignored) {
-            throw new RuntimeException();
         }
         return point;
-    }*/
-    @Override
-    public Point clone() throws CloneNotSupportedException {
-        return (Point) super.clone();
     }
 
     @Override

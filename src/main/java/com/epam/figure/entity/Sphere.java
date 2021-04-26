@@ -19,7 +19,7 @@ public class Sphere extends AbstractFigure implements Cloneable, Observable {
         this.radius = radius;
     }
 
-    public Point getPoint() throws CloneNotSupportedException {
+    public Point getPoint() {
         return point.clone();
     }
 
@@ -41,8 +41,13 @@ public class Sphere extends AbstractFigure implements Cloneable, Observable {
     }
 
     @Override
-    public Sphere clone() throws CloneNotSupportedException {
-        return (Sphere) super.clone();
+    public Sphere clone() {
+        Sphere sphere = null;
+        try {
+            sphere = (Sphere) super.clone();
+        } catch (CloneNotSupportedException ignored){
+        }
+        return sphere;
     }
 
     @Override

@@ -8,23 +8,21 @@ import org.apache.logging.log4j.Logger;
 
 import javax.annotation.processing.FilerException;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FigureReader {
-    private final static Logger LOGGER = LogManager.getLogger(FigureReader.class);
+    private static final Logger LOGGER = LogManager.getLogger(FigureReader.class);
 
     public List<String> read(String file) throws FigureException {
-        try {
-            List<String> list = Files.lines(Paths.get(file), StandardCharsets.UTF_8)
+        LOGGER.log(Level.INFO, "read file {}", file);
+        try (Stream<String> input = Files.lines(Paths.get(file))){
+            List<String> list = input
                     .filter(FigureFileValidator::validate)
                     .collect(Collectors.toList());
-            LOGGER.log(Level.INFO, new StringBuilder()
-                    .append("read file : ")
-                    .append(file).toString());
             if(list.isEmpty()){
                 throw new FilerException("No valid lines found");
             }

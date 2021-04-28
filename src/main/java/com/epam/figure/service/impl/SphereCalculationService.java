@@ -9,38 +9,36 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class SphereCalculationService implements CalculationService {
-    private final static Logger LOGGER = LogManager.getLogger(SphereCalculationService.class);
+    private static final Logger LOGGER = LogManager.getLogger(SphereCalculationService.class);
 
     @Override
     public double volume(AbstractFigure figure) {
         Sphere sphere = (Sphere) figure;
-        LOGGER.log(Level.INFO, "function area take obj :" + figure);
+        LOGGER.log(Level.INFO, "function area take obj : {}", figure);
         return Math.round((double) 4 / 3 * Math.PI * Math.pow(sphere.getRadius(), 3));
     }
 
     @Override
     public double squareSurface(AbstractFigure figure) {
         Sphere sphere = (Sphere) figure;
-        LOGGER.log(Level.INFO, "function squareSurface take obj :" + figure);
+        LOGGER.log(Level.INFO, "function squareSurface take obj : {}", figure);
         return Math.round(4 * Math.PI * Math.pow(sphere.getRadius(), 2));
     }
 
     @Override
-    public boolean planeIntersection(AbstractFigure figure, double height, String coordinatePlane) throws FigureException, CloneNotSupportedException {
+    public boolean planeIntersection(AbstractFigure figure, double height, String coordinatePlane) throws FigureException {
         Sphere sphere = (Sphere) figure;
         double coordinateFigure = currentCoordinateFigure(sphere, coordinatePlane);
         double radius = sphere.getRadius();
         double min = coordinateFigure - radius;
         double max = coordinateFigure + radius;
-        LOGGER.log(Level.INFO, new StringBuilder()
-                .append("function planeIntersection take obj : ").append(figure)
-                .append(" with height : ").append(height)
-                .append(" coordinate plane : ").append(coordinateFigure).toString());
+        LOGGER.log(Level.INFO, "function planeIntersection take obj : {} with height : {} coordinate plane : {}",
+                figure,height, coordinateFigure);
         return (min != max || max != 0) && (min <= height && max >= height);
     }
 
     @Override
-    public double spaceRatio(AbstractFigure figure, double height, String coordinatePlane) throws FigureException, CloneNotSupportedException {
+    public double spaceRatio(AbstractFigure figure, double height, String coordinatePlane) throws FigureException {
         Sphere sphere = (Sphere) figure;
         if (!planeIntersection(figure, height, coordinatePlane)) {
             throw new FigureException(
@@ -72,7 +70,7 @@ public class SphereCalculationService implements CalculationService {
      * @param coordinatePlane coordinate plane by two axis
      * @return current coordinate x or y or z from Point within coordinate plane
      */
-    private double currentCoordinateFigure(Sphere sphere, String coordinatePlane) throws FigureException, CloneNotSupportedException {
+    private double currentCoordinateFigure(Sphere sphere, String coordinatePlane) throws FigureException {
         double coordinateFigure;
         switch (coordinatePlane) {
             case "yx":
@@ -92,7 +90,7 @@ public class SphereCalculationService implements CalculationService {
             }
             break;
             default: {
-                LOGGER.log(Level.ERROR, "Invalid coordinate plane :" + coordinatePlane);
+                LOGGER.log(Level.ERROR, "Invalid coordinate plane : {}", coordinatePlane);
                 throw new FigureException("Invalid coordinate plane");
             }
         }

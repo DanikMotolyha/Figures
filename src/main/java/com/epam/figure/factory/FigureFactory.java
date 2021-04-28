@@ -3,18 +3,18 @@ package com.epam.figure.factory;
 import com.epam.figure.entity.AbstractFigure;
 import com.epam.figure.entity.Point;
 import com.epam.figure.entity.Sphere;
-import com.epam.figure.entity.Warehouse;
 import com.epam.figure.exception.FigureException;
-import com.epam.figure.observer.impl.SphereObserver;
 import com.epam.figure.validator.FigureFactoryValidator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class FigureFactory {
-    private final static Logger LOGGER = LogManager.getLogger(FigureFactory.class);
+    private static final Logger LOGGER = LogManager.getLogger(FigureFactory.class);
+
 
     public FigureFactory() {
+        // init factory
     }
 
     public AbstractFigure create(double... params) throws FigureException {

@@ -28,11 +28,15 @@ public class FigureInfo {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         FigureInfo that = (FigureInfo) o;
-        return Double.compare(that.area, area) == 0 &&
-                Double.compare(that.volume, volume) == 0;
+        return Double.compare(that.area, area) == 0
+                && Double.compare(that.volume, volume) == 0;
     }
 
     @Override

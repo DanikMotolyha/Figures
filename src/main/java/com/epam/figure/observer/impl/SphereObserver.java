@@ -11,7 +11,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class SphereObserver implements Observer {
-    private final static Logger LOGGER = LogManager.getLogger(SphereObserver.class);
+    private static final Logger LOGGER =
+            LogManager.getLogger(SphereObserver.class);
 
     @Override
     public void parameterChanged(SphereEvent event) {

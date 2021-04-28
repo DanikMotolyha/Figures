@@ -4,7 +4,7 @@ public abstract class AbstractFigure {
     private static long id;
     private final long figureId;
 
-    public AbstractFigure() {
+    protected AbstractFigure() {
         figureId = id++;
     }
 
@@ -19,8 +19,12 @@ public abstract class AbstractFigure {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         AbstractFigure figure = (AbstractFigure) o;
         return figureId == figure.figureId;
     }

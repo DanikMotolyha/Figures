@@ -4,6 +4,8 @@ import com.epam.figure.exception.FigureException;
 
 public class FigureFactoryValidator {
 
+    private FigureFactoryValidator() {
+    }
 
     public static void validateSphereParameters(double... params) throws FigureException {
         if (params.length != 4) {

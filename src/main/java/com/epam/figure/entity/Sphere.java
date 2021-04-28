@@ -4,7 +4,6 @@ import com.epam.figure.exception.FigureException;
 import com.epam.figure.observer.Observable;
 import com.epam.figure.observer.Observer;
 import com.epam.figure.observer.SphereEvent;
-import com.epam.figure.validator.FigureFactoryValidator;
 
 import java.util.Comparator;
 import java.util.Objects;
@@ -33,7 +32,7 @@ public class Sphere extends AbstractFigure implements Cloneable, Observable {
     }
 
     public void setRadius(double radius) throws FigureException {
-        if(radius < 0){
+        if (radius < 0) {
             throw new FigureException("new radius cannot be less then 0");
         }
         this.radius = radius;
@@ -45,15 +44,19 @@ public class Sphere extends AbstractFigure implements Cloneable, Observable {
         Sphere sphere = null;
         try {
             sphere = (Sphere) super.clone();
-        } catch (CloneNotSupportedException ignored){
+        } catch (CloneNotSupportedException ignored) {
         }
         return sphere;
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         if (!super.equals(o)) return false;
         Sphere sphere = (Sphere) o;
         return Double.compare(sphere.radius, radius) == 0 &&
